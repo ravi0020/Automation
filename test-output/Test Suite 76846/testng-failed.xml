@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test Suite 76846]" parallel="classes">
+  <parameter name="BROWSER" value="chrome"/>
+  <parameter name="URL" value="https://demo.opencart.com/"/>
+  <test name="Ravi Machine Test for testing profile(failed)" parallel="classes">
+    <parameter name="BROWSER" value="chrome"/>
+    <parameter name="URL" value="https://demo.opencart.com/"/>
+    <classes>
+      <class name="com.zibal.framework.testScript.TC001">
+        <methods>
+          <include name="validateAddCartFunctionality"/>
+        </methods>
+      </class> <!-- com.zibal.framework.testScript.TC001 -->
+    </classes>
+  </test> <!-- Ravi Machine Test for testing profile(failed) -->
+</suite> <!-- Failed suite [Test Suite 76846] -->
